@@ -1,0 +1,41 @@
+#wrapper {
+    background-color: bisque;
+    height: 100vh;
+    width: 100vh;
+}
+header {
+    background-color: brown;
+    border: solid black ;
+    display:flex;
+    justify-content: space-between;
+}
+nav {
+    background-color: cadetblue;
+    display:flex;
+    justify-content: space-around;
+    width: 50vh;
+}
+main {
+    background-color: rgba(128, 128, 128, 0.308);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:40vh;
+    border:black solid 2px;
+    margin-left: 6vh; margin-right: 6vh;
+    
+}
+#bb {
+    position: relative;
+    top:5vh;
+    border:black solid 2px;
+    background-color: rgba(161, 0, 0, 0.747);
+}
+#ku {
+border: black solid 2px;
+margin-top: 10vh; margin-left: 6vh; margin-right: 6vh;
+display:flex;
+height:10vh;
+align-items: center;
+justify-content: space-between;
+}
