@@ -1,7 +1,7 @@
 #wrapper {
     background-color: bisque;
-    height: 100vh;
-    width: 100%;
+    min-height: 100vh;
+    min-width: 100vw;
 }
 header {
     background-color: brown;
@@ -25,6 +25,10 @@ a{
     text-align: center;
     padding: 1rem 1.3rem;
 }
+#logoa {
+    padding:0;
+    background-color:black;
+}
 main {
     background-color: rgba(128, 128, 128, 0.308);
     display: flex;
@@ -43,14 +47,31 @@ main {
     width:15rem;
     height:4rem;
     text-align:center;
+    padding-top:1.1rem;
+    font-size: 2rem;
+}
+#bbb {
+    background-color:rgba(0, 139, 139, 0) ;
 }
 #ku {
-border: black solid 2px;
-margin-top: 10vh; margin-left: 6vh; margin-right: 6vh;
-display:flex;
-height:10vh;
-align-items: center;
-justify-content: space-between;
+    border: black solid 2px;
+    margin-top: 10vh; margin-left: 6vh; margin-right: 6vh;
+    display:flex;
+    height:15vh;
+    align-items: center;
+    justify-content: space-between;
+}
+#kp{
+    border: black solid 2px;
+    height:100%;
+    width:40%;
+    font-size: 1.5rem;
+}
+#ua{
+    border:black solid 2px;
+    height:100%;
+    width:40%;
+    font-size: 1.5rem;
 }
 
 footer {

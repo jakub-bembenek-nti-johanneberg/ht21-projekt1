@@ -1,0 +1,34 @@
+#wrapper {
+    background-color: bisque;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+header {
+    background-color: brown;
+    border: solid black ;
+    display:flex;
+    justify-content: space-between;
+    height: 8rem;
+    align-items: flex-end;
+}
+nav {
+    border:solid black 2px;
+}
+ul {
+    list-style: none;
+    padding:0;
+    display:flex;
+}
+a{
+    background-color: cadetblue;
+    text-decoration: none;
+    text-align: center;
+    padding: 1rem 1.3rem;
+}
+#menyk {
+    background-color: rgb(33, 110, 110);
+}
+#logoa {
+    padding:0;
+    background-color:black;
+}
