@@ -1,5 +1,5 @@
 #wrapper {
-    background-color: bisque;
+    background-color: rgb(230, 168, 94);
     min-height: 100vh;
     min-width: 100vw;
 }
@@ -20,7 +20,7 @@ ul {
     display:flex;
 }
 a{
-    background-color: cadetblue;
+    background-color: rgb(102, 153, 153);
     text-decoration: none;
     text-align: center;
     padding: 1rem 1.3rem;
@@ -34,11 +34,18 @@ a{
     height: 7.5rem;
     
 }
+#hittaoss {
+    background-color: rgba(240, 248, 255, 0);
+}
+#osspng {
+    width:6rem;
+    height: 6.5rem;
+}
 main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height:50vh;
+    height:65vh;
     border:black solid 2px;
     margin-left: 6vh; margin-right: 6vh;
     position:relative;
@@ -51,7 +58,7 @@ main {
     position: absolute;
     top:30vh;
     border:black solid 2px;
-    background-color: rgb(161, 0, 0);
+    background-color: brown;
     width:15rem;
     height:4rem;
     text-align:center;
@@ -65,23 +72,26 @@ main {
     border: black solid 2px;
     margin-top: 10vh; margin-left: 6vh; margin-right: 6vh;
     display:flex;
-    height:15vh;
+    height:20vh;
     align-items: center;
     justify-content: space-around;
+    background-color: brown;
 }
 #kp{
-    border: black solid 2px;
+
     font-size: 1.5rem;
-    text-align:center;
+}
+#kpa {
+    background-color: rgba(165, 42, 42, 0);
 }
 #ua{
-    border:black solid 2px;
 
     font-size: 1.5rem;
 }
 
 footer {
     border:black 2px solid;
-    height:8rem;
-    margin-top: 10vh
+    height:10rem;
+    margin-top: 10vh;
+    background-color: rgb(102, 153, 153);
 }
