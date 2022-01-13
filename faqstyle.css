@@ -1,7 +1,6 @@
 body {
     font-family: 'Saira', sans-serif;
 }
-
 #wrapper {
     background-color: rgb(255, 201, 134);
     min-height: 100vh;
@@ -56,29 +55,23 @@ a{
     width:6rem;
     height: 6.5rem;
 }
-.ph {
-    border: black solid 2px;
-    height:20rem;
-    width:20rem;
-}
-#main {
-    width:100vw;
+main {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-#meny {
-    background-color: rgb(122, 62, 27);
-    width:50vw;
+#rubrik {
+    font-size: 1.7rem;
+}
+.fraga {
+    background-color: rgb(214, 142, 48);
     padding:1rem;
-    display: grid;
-    grid-template-areas:
-    'rt rt'
-    'p1 p2'
-    'p3 p4'
-    'dr dr'
-    'p5 p6';
-    row-gap: 2rem;
-    column-gap: 2rem;
+    font-size: 1.5rem;
+}
+.svar {
+    background-color: rgb(255, 212, 160);
+    padding:1rem;
+    font-size:1.2rem;
 }
 footer {
     height:10rem;
@@ -99,57 +92,4 @@ footer {
     grid-area: ft2;
     font-size: 0.8rem;
     color:rgb(68, 68, 68);
-}
-
-#sn {
-    width:20rem;
-    height :20rem;
-}
-#rs {
-    width:20rem;
-    height :20rem;
-}
-#mous {
-    width:20rem;
-    height :20rem;
-}
-#gd {
-    width:20rem;
-    height :20rem;
-}
-#rat{
-    grid-area: rt;
-    color:white;
-}
-#dry {
-    grid-area: dr;
-    color:white;
-}
-#beer {
-    width:20rem;
-    height :20rem;
-}
-#ct {
-    width:20rem;
-    height :20rem;
-}
-#ph1{
-    grid-area: p1;
-    margin-left: auto;
-    margin-right: auto;
-}
-#ph2{
-    grid-area: p2;
-}
-#ph3{
-    grid-area: p3;
-}
-#ph4{
-    grid-area: p4;
-}
-#ph5{
-    grid-area: p5;
-}
-#ph6{
-    grid-area: p6;
 }
